@@ -147,6 +147,7 @@ Current repository:
 ```text
 bank-profitability-diagnostics/
 ├── README.md
+├── .gitignore
 ├── bank_profitability_diagnostics.ipynb
 ├── images/
 │   ├── .gitkeep
