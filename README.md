@@ -147,39 +147,52 @@ Current repository:
 ```text
 bank-profitability-diagnostics/
 ├── README.md
-└── bank_profitability_diagnostics.ipynb
+├── bank_profitability_diagnostics.ipynb
+└── images/
+    ├── .gitkeep
+    ├── 01_screening_funnel.png
+    ├── 02_dominant_drivers.png
+    ├── 03_severity_comparison.png
+    ├── 04_roa_bridge.png
+    └── 05_actual_roa_direction.png
 ```
 
 The notebook contains the full analytical workflow, saved execution results, validation checks, and visualizations.
 
-Additional chart previews and documentation can be added as separate portfolio assets.
-
 ## Python Visualization Preview
 
-The project includes executive-level visualizations developed using Matplotlib.
+The following visualizations summarise the principal findings from the completed Python analysis.
 
 ### 1. Profitability Screening Funnel
 
 Shows the progression from 4,172 eligible banks to 2,084 banks with peer-relative deterioration and 729 combined-screening candidates.
 
+![Profitability Screening Funnel](images/01_screening_funnel.png)
+
 ### 2. Dominant Negative Financial Drivers
 
 Compares the frequency of accounting components identified as each selected bank's largest negative contribution.
+
+![Dominant Negative Financial Drivers](images/02_dominant_drivers.png)
 
 ### 3. Severity-Based Driver Comparison
 
 Illustrates how dominant accounting contribution patterns differ across deterioration severity bands.
 
+![Severity-Based Driver Comparison](images/03_severity_comparison.png)
+
 ### 4. Illustrative Bank-Level ROA Bridge
 
 Demonstrates how changes in earnings and average assets contribute to the year-over-year ROA change of a selected institution.
+
+![Illustrative Bank-Level ROA Bridge](images/04_roa_bridge.png)
 
 ### 5. Actual ROA Direction
 
 Compares the 420 banks with actual ROA declines against the 309 banks whose ROA remained stable or improved despite peer-relative deterioration.
 
-*Chart previews will be embedded here after the PNG files are added to the repository.*
-
+![Actual ROA Direction](images/05_actual_roa_direction.png)
+  
 ## Project Status - Completed
 
 - [x] FDIC API data extraction and historical snapshot validation
