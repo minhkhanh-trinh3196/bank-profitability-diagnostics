@@ -148,13 +148,16 @@ Current repository:
 bank-profitability-diagnostics/
 ├── README.md
 ├── bank_profitability_diagnostics.ipynb
-└── images/
+├── images/
+│   ├── .gitkeep
+│   ├── 01_screening_funnel.png
+│   ├── 02_dominant_drivers.png
+│   ├── 03_severity_comparison.png
+│   ├── 04_roa_bridge.png
+│   └── 05_actual_roa_direction.png
+└── reports/
     ├── .gitkeep
-    ├── 01_screening_funnel.png
-    ├── 02_dominant_drivers.png
-    ├── 03_severity_comparison.png
-    ├── 04_roa_bridge.png
-    └── 05_actual_roa_direction.png
+    └── Bank_Profitability_Diagnostics_Python.pdf
 ```
 
 The notebook contains the full analytical workflow, saved execution results, validation checks, and visualizations.
@@ -217,10 +220,15 @@ Compares the 420 banks with actual ROA declines against the 309 banks whose ROA 
 
 ## Reports & Documentation
 
-**[Complete Python Analysis Notebook](bank_profitability_diagnostics.ipynb)**
+Detailed analytical materials are available below:
 
-The notebook provides the full methodology, financial calculations, data validation results, visualizations, and analytical interpretations.
+- [Python Analysis Report](reports/Bank_Profitability_Diagnostics_Python.pdf)
+- [Complete Python Analysis Notebook](bank_profitability_diagnostics.ipynb)
 
+The PDF report provides the complete analytical methodology, supporting calculations, validation results, visualizations, and financial interpretations.
+
+The Jupyter notebook contains the underlying Python code and saved execution outputs.
+  
 For a concise review of the findings, see **Section 08 - Executive Insights & Visualizations**.
 
 ## Execution Environment & Reproducibility
